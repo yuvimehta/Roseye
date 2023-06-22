@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+
+  <node name="tkinter_ros_node" pkg="roseye" type="main.py" output="screen"/>
+  <node name="command" pkg="roseye" type="node_runner.py" output="screen"/>
+  
+
+</launch>
+ 
